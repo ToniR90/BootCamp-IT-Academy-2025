@@ -5,7 +5,7 @@ import lombok.experimental.SuperBuilder;
 @SuperBuilder
 public class WindInstrument extends Instrument{
     {
-        System.out.println("Initializer block started");
+        System.out.println("Initializer block started in WindInstrument class");
     }
 
     @Override
