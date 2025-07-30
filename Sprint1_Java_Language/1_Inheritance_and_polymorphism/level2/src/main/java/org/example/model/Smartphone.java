@@ -7,7 +7,7 @@ import org.example.service.Clock;
 @SuperBuilder
 public class Smartphone extends Phone implements Camera, Clock {
     @Override
-    public String photo() {
+    public String takePhoto() {
         return "Taking photo";
     }
 
