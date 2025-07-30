@@ -52,6 +52,7 @@ Executed **only once** when the class is loaded.
 static {
     System.out.println("Static block: Class is being loaded");
 }
+```
 
 ### ✅ Instance inizialitation block
 
@@ -59,3 +60,21 @@ static {
 {
     System.out.println("Initialization block: An instance is being created");
 }
+```
+
+### Requirements
+
+- Java 8 or higher
+
+
+### 🚀 How to Run
+
+1. Compile the project:
+```
+javac instruments/*.java
+```
+
+2. Run the main class:
+```
+java instruments.Main
+```
