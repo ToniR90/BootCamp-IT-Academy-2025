@@ -1,10 +1,10 @@
 package org.example.model;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.experimental.SuperBuilder;
 
 @Data
-@AllArgsConstructor
+@SuperBuilder
 public class Phone {
     private String brand;
     private String model;
