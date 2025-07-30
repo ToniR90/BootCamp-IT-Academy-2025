@@ -31,21 +31,3 @@ public class Main {
         }
     }
 }
-
-//WindInstrument windInstrument = WindInstrument.builder()
-//                .name("Flute")
-//                .price(7.99)
-//                .build();
-//        windInstrument.play();
-//
-//        StringsInstrument stringsInstrument = StringsInstrument.builder()
-//                .name("Bass")
-//                .price(899.99)
-//                .build();
-//        stringsInstrument.play();
-//
-//        PercussionInstrument percussionInstrument = PercussionInstrument.builder()
-//                .name("Drums").
-//                price(1199.99)
-//                .build();
-//        percussionInstrument.play();
