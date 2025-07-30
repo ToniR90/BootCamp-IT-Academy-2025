@@ -9,7 +9,7 @@ import lombok.Data;
 @Data
 public class Car {
     private static final String BRAND = "Ford";
-    private static  String model;
+    public static String model;
     private final int power;
 
     public String accelerate() {
