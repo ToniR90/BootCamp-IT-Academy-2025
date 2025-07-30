@@ -10,6 +10,6 @@ public class Main {
         Car.model = "Mustang";
 
         System.out.println(car.accelerate());
-        System.out.println(Car.stop());
+        System.out.println(Car.brake());
     }
 }

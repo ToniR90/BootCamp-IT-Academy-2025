@@ -16,7 +16,7 @@ public class Car {
         return "The car is accelerating";
     }
 
-    public static String stop() {
-        return "The car is stopping";
+    public static String brake() {
+        return "The car is braking";
     }
 }
