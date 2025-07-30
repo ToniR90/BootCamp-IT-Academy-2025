@@ -10,6 +10,6 @@ public class Phone {
     private String model;
 
     public String call(String phoneNumber) {
-        return "Calling to " + phoneNumber + " number";
+        return "Calling to " + phoneNumber;
     }
 }
