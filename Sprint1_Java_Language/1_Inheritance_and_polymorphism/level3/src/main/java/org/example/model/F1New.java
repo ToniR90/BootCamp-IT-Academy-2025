@@ -1,4 +1,4 @@
 package org.example.model;
 
-public class F1New {
+public class F1New extends New {
 }

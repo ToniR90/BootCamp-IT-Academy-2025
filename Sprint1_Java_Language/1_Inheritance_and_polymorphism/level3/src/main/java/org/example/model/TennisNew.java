@@ -1,4 +1,4 @@
 package org.example.model;
 
-public class TennisNew {
+public class TennisNew extends New{
 }
