@@ -8,7 +8,6 @@ import org.example.model.enums.FootballCompetition;
 import org.example.model.enums.FootballPlayer;
 
 @Getter
-@Setter
 @SuperBuilder
 public class FootballNew extends New {
     private FootballCompetition competition;
