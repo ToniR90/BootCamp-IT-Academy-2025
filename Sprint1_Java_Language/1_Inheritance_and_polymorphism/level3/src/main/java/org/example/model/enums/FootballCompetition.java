@@ -1,5 +1,5 @@
 package org.example.model.enums;
 
 public enum FootballCompetition {
-    CHAMPIONS_LEAGUE
+    CHAMPIONS_LEAGUE , LEAGUE
 }
