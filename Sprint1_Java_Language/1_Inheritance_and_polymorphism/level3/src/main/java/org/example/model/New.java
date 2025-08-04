@@ -1,16 +1,23 @@
 package org.example.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 import lombok.experimental.SuperBuilder;
 
-@Data
+@Getter
+@Setter
 @SuperBuilder
-@AllArgsConstructor
 public abstract class New {
     private String headline;
-    private String text = "";
-    private int punctuation;
-    private double price;
+    private String text;
+    protected int punctuation;
+    protected double price;
 
+    protected New(String headline, String text) {
+        this.headline = headline;
+        this.text = (text != null) ? text : "";
+    }
+
+    public abstract void calculatePrice();
+    public abstract void calculatePunctuation();
 }
