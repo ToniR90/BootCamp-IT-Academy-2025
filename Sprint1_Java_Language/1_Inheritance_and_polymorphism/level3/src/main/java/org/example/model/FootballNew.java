@@ -12,14 +12,4 @@ public class FootballNew extends New {
     private FootballCompetition competition;
     private FootballClub club;
     private FootballPlayer player;
-
-    @Override
-    protected String calculatePrice() {
-        return "";
-    }
-
-    @Override
-    protected String calculatePunctuation() {
-        return "";
-    }
 }

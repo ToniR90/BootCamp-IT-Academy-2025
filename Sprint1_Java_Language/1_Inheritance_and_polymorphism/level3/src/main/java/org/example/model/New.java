@@ -13,6 +13,4 @@ public abstract class New {
     private int punctuation;
     private double price;
 
-    protected abstract String calculatePrice();
-    protected abstract String calculatePunctuation();
 }
