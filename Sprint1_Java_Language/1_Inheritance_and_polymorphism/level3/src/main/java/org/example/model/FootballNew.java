@@ -14,14 +14,4 @@ public class FootballNew extends New {
     private FootballCompetition competition;
     private FootballClub club;
     private FootballPlayer player;
-
-    @Override
-    public void calculatePrice() {
-
-    }
-
-    @Override
-    public void calculatePunctuation() {
-
-    }
 }
