@@ -15,7 +15,7 @@ public class ClubPunctuationRule implements PunctuationRule {
     );
 
     @Override
-    public int apply(New newItem) {
+    public int calculate(New newItem) {
         if(!(newItem instanceof BasketballNew basketballNew)) {
             return 0;
         }

@@ -7,14 +7,14 @@ import org.example.rules.PunctuationRule;
 import java.util.List;
 
 @AllArgsConstructor
-public class F1Punctuationcalculator implements PunctuationRule {
+public class F1PunctuationCalculator implements PunctuationRule {
 
     private final List<PunctuationRule> rules;
 
     @Override
-    public int apply(New newItem) {
+    public int calculate(New newItem) {
         return 4 + rules.stream()
-                .mapToInt(rule -> rule.apply(newItem))
+                .mapToInt(rule -> rule.calculate(newItem))
                 .sum();
     }
 }

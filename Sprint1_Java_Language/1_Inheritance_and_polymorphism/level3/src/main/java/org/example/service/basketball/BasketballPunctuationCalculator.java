@@ -15,7 +15,7 @@ public class BasketballPunctuationCalculator implements PunctuationCalculator {
     @Override
     public int calculate(New newItem) {
         return 4 + rules.stream()
-                .mapToInt(rule -> rule.apply(newItem))
+                .mapToInt(rule -> rule.calculate(newItem))
                 .sum();
     }
 }

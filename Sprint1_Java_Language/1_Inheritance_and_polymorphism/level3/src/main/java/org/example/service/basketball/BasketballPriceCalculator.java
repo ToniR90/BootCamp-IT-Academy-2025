@@ -15,7 +15,7 @@ public class BasketballPriceCalculator implements PriceCalculator {
     @Override
     public double calculate(New newItem) {
         return 250 + rules.stream()
-                .mapToDouble(rule -> rule.apply(newItem))
+                .mapToDouble(rule -> rule.calculate(newItem))
                 .sum();
     }
 }

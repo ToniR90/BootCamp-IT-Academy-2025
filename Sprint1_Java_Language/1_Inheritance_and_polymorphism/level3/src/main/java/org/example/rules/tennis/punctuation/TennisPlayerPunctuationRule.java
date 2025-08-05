@@ -15,7 +15,7 @@ public class TennisPlayerPunctuationRule implements PunctuationRule {
     );
 
     @Override
-    public int apply(New newItem) {
+    public int calculate(New newItem) {
         if(!(newItem instanceof TennisNew tennisNew)) {
             return 0;
         }

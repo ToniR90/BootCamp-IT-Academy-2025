@@ -15,7 +15,7 @@ public class TeamPriceRule implements PriceRule {
     );
 
     @Override
-    public double apply(New newItem) {
+    public double calculate(New newItem) {
         if(!(newItem instanceof MotoNew motoNew)) {
             return 0.0;
         }

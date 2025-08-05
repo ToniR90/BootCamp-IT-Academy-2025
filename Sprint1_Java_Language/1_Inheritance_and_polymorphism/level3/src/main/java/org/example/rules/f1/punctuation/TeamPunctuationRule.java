@@ -15,7 +15,7 @@ public class TeamPunctuationRule implements PunctuationRule {
     );
 
     @Override
-    public int apply(New newItem) {
+    public int calculate(New newItem) {
         if(!(newItem instanceof F1New f1New)) {
             return 0;
         }

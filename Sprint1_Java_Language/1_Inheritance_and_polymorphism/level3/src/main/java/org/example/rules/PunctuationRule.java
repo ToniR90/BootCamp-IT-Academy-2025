@@ -4,5 +4,5 @@ import org.example.model.New;
 
 @FunctionalInterface
 public interface PunctuationRule {
-    int apply(New newItem);
+    int calculate(New newItem);
 }

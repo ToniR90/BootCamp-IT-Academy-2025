@@ -15,7 +15,7 @@ public class ClubPriceRule implements PriceRule {
     );
 
     @Override
-    public double apply(New newItem) {
+    public double calculate(New newItem) {
         if(!(newItem instanceof BasketballNew basketballNew)) {
             return 0.0;
         }

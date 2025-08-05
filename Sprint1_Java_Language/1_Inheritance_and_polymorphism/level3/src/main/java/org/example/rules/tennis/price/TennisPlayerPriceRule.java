@@ -15,7 +15,7 @@ public class TennisPlayerPriceRule implements PriceRule {
     );
 
     @Override
-    public double apply(New newItem) {
+    public double calculate(New newItem) {
         if(!(newItem instanceof TennisNew tennisNew)) {
             return 0.0;
         }
