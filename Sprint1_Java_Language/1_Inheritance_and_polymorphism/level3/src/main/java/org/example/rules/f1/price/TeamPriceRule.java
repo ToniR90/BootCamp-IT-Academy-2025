@@ -19,6 +19,6 @@ public class TeamPriceRule implements PriceRule {
         if(!(newItem instanceof F1New f1New)) {
             return 0.0;
         }
-        return keyTeams.contains(f1New.getF1Team()) ? 50 : 0.0;
+        return keyTeams.contains(f1New.getF1Team()) ? 50.0 : 0.0;
     }
 }

@@ -19,6 +19,6 @@ public class CompetitionPriceRule implements PriceRule {
         if(!(newItem instanceof BasketballNew basketballNew)) {
             return 0.0;
         }
-        return keyCompetitions.contains(basketballNew.getBasketballCompetition()) ? 75 : 0.0;
+        return keyCompetitions.contains(basketballNew.getBasketballCompetition()) ? 75.00 : 0.0;
     }
 }
